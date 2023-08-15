@@ -1,0 +1,23 @@
+dev:
+  customer: aws-bp-cop
+  account: sandbox
+  region_name: eu-west-1
+  region_code: ew1
+  tags:
+    owner: is
+    account: sandbox
+    region: eu-west-1
+    environment: dev
+    managed-by: terraform
+
+prod:
+  customer: aws-bp-cop
+  account: sandbox
+  region_name: eu-central-1
+  region_code: ec1
+  tags:
+    owner: is
+    account: sandbox
+    region: eu-central-1
+    environment: prod
+    managed-by: terraform
