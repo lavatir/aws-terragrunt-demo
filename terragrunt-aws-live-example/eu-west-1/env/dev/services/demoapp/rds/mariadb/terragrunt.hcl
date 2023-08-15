@@ -1,5 +1,5 @@
 terraform {
-  source = "git::https://github.com/lavatir/aws-terragrunt-demo//terraform-aws-module/mariadb?ref=v0.0.1"
+  source = "git::https://github.com/lavatir/aws-terragrunt-demo.git//terraform-aws-module-rds/mariadb?ref=v0.0.1"
   #source = "../../../../../../../../terraform-aws-module-rds//mariadb"
 }
 
